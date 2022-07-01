@@ -121,6 +121,10 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .contact-link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -133,10 +137,22 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     color: var(--accent-color);
 }
 
-.contact .contact-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.icon-contact {
+    
+    max-width: 16px;
+    max-height: 16px;
+    margin-right: 10px;
+    fill: var(--secondary-text-color);
+    
+}
+
+.contact-link:hover .icon-contact {
+    fill: var(--accent-color);
 }
 
 /* Main page */
@@ -144,7 +160,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 .hero {
     background-color: var(--secondary-bg-color);
     background-image: linear-gradient(#2F303A66, #2F303A66),
-    url(./images/heroimg.jpg);
+    url(../images/heroimg.jpg);
     
     min-height: 600px;
     background-repeat: no-repeat;
