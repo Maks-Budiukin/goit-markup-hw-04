@@ -119,6 +119,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
 }
 
 .contact-link:hover,
@@ -135,7 +136,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     max-width: 16px;
     max-height: 16px;
     margin-right: 10px;
-    fill: var(--secondary-text-color);
+    /* fill: var(--secondary-text-color); */
     
 }
 .contact-link:focus .icon-contact,
@@ -340,11 +341,12 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     width: 100%;
     height: 100%;
     padding: 12px;
+    fill: var(--icon-color);
 }
 
 
 .team-icon {
-    fill: var(--icon-color);
+    /* fill: var(--icon-color); */
 }
 
 .team-socials-link:hover,
@@ -378,6 +380,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     padding: 15px 31px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
+    fill: var(--icon-color);
 }
 
 .clients-list .clients-item + .clients-item {
@@ -385,7 +388,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .clients-icon {
-    fill: var(--icon-color);
+    /* fill: var(--icon-color); */
 }
 
 .clients-link:focus,
@@ -489,11 +492,12 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     width: 100%;
     height: 100%;
     padding: 12px;
+    fill: var(--main-bg-color);
 }
 
 
 .footer-icon {
-    fill: var(--main-bg-color);
+    /* fill: var(--main-bg-color); */
 }
 
 .footer-socials-link:hover,
@@ -547,6 +551,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 .filter-button:focus {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
