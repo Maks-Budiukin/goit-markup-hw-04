@@ -563,8 +563,8 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     margin-bottom: 30px;
 }
 
-.portfolio-item:focus,
-.portfolio-item:hover {
+.portfolio-link:focus,
+.portfolio-link:hover {
     
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -580,23 +580,36 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 .portfolio-info {
     padding-top: 20px;
     padding-right: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 19px;
     padding-left: 20px;
+    
     border: 1px solid #EEEEEE;
     border-top: 0px solid transparent;
 }
 
-.port-image {
+.portfolio-link {
     display: block;
+    width: 100%;
+    /* height: 100%; */
+    text-decoration: none;
+    color: inherit;
 }
 
-.portfolio-info h2 {
+.port-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item-name {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio-info p {
+.portfolio-item-category {
+    margin-top: 4px;
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-text-color);
