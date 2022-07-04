@@ -136,8 +136,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     max-width: 16px;
     max-height: 16px;
     margin-right: 10px;
-    /* fill: var(--secondary-text-color); */
-    
 }
 .contact-link:focus .icon-contact,
 .contact-link:hover .icon-contact {
@@ -237,10 +235,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     align-items: center;
     background-color: var(--section-bg-color);
     border-radius: 4px;
-}
-
-.offer-icon {
-   object-position: center;
 }
 
 .duties {
@@ -348,10 +342,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 
-.team-icon {
-    /* fill: var(--icon-color); */
-}
-
 .team-socials-link:hover,
 .team-socials-link:focus {
     background-color: var(--accent-color);
@@ -390,10 +380,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 
 .clients-list .clients-item + .clients-item {
     margin-left: 30px;
-}
-
-.clients-icon {
-    /* fill: var(--icon-color); */
 }
 
 .clients-link:focus,
@@ -596,7 +582,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 .portfolio-link {
     display: block;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     text-decoration: none;
     color: inherit;
 }
