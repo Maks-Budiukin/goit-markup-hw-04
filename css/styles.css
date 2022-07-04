@@ -314,7 +314,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .team-position {
-    margin-top: 16px;
+    margin-top: 10px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -322,7 +322,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .team-socials-list {
-    margin-top: 20px;
+    margin-top: 16px;
     list-style: none;
     display: flex;
 }
