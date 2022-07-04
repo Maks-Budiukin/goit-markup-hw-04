@@ -162,6 +162,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -229,10 +230,11 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .offer-icon-holder {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 120px;
-    padding: 25px 100px 25px 100px;
+    justify-content: center;
+    align-items: center;
     background-color: var(--section-bg-color);
     border-radius: 4px;
 }
@@ -337,10 +339,11 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .team-socials-link {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 100%;
-    padding: 12px;
+    justify-content: center;
+    align-items: center;
     fill: var(--icon-color);
 }
 
@@ -375,9 +378,11 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .clients-link {
-    display: inline-block;
+    display: flex;
     max-width: 100%;
-    padding: 15px 31px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     fill: var(--icon-color);
@@ -488,16 +493,12 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 
 .footer-socials-link {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 100%;
-    padding: 12px;
+    justify-content: center;
+    align-items: center;
     fill: var(--main-bg-color);
-}
-
-
-.footer-icon {
-    /* fill: var(--main-bg-color); */
 }
 
 .footer-socials-link:hover,
